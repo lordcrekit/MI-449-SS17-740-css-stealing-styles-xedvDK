@@ -1,0 +1,22 @@
+.header {
+  text-align: right;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+form {
+}
+
+h1 {
+  background: url(./garbage.jpeg) 0 0 repeat-x;
+  background-size: cover;
+  font-size: 80px;
+  text-shadow: -3px 0 red, 0 3px red, 3px 0 red, 0 -3px red;
+}
+form {
+  
+}
