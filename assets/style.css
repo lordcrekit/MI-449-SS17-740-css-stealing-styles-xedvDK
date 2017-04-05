@@ -20,29 +20,29 @@ h1 {
   height: 40px;
   line-height: 40px;
   padding: 0 14px;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   background: #fff;
   border-radius: 4px;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: .025em;
+  letter-spacing: 0.025em;
   color: #6772e5;
   text-decoration: none;
-  transition: all .15s ease;
+  transition: all 0.15s ease;
 }
 
 .button:hover {
   color: #7795f8;
   transform: translateY(-1px);
-  box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
 .button:active {
   color: #555abf;
   background-color: #f6f9fc;
   transform: translateY(1px);
-  box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .button:focus {
@@ -61,16 +61,13 @@ h1 {
   vertical-align: bottom;
   box-sizing: border-box;
   text-rendering: auto;
-  color: initial;
   letter-spacing: normal;
   word-spacing: normal;
   text-transform: none;
-  text-indent: 0px;
+  text-indent: 0;
   text-shadow: none;
   display: inline-block;
   text-align: start;
-
-  display: block;
   line-height: 1.7;
   font-family: Merriweather;
   font-weight: 300;
