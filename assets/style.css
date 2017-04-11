@@ -15,6 +15,7 @@ h1 {
 }
 
 .button {
+  border-style: none;
   white-space: nowrap;
   display: inline-block;
   height: 40px;
@@ -27,27 +28,20 @@ h1 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.025em;
-  color: #6772e5;
+  color: #7795f8;
   text-decoration: none;
   transition: all 0.15s ease;
 }
 
 .button:hover {
-  color: #7795f8;
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
 .button:active {
-  color: #555abf;
   background-color: #f6f9fc;
   transform: translateY(1px);
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-.button:focus {
-  border-style: solid;
-  border-color: green;
 }
 
 .searchbar {
