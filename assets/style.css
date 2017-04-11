@@ -69,7 +69,6 @@ h1 {
 }
 
 .searchbar:focus {
-  outline: -webkit-focus-ring-color auto 5px;
-  border-style: 5px;
-  border-color: green;
+  border: 1px solid #07682c;
+  outline: 0;
 }
